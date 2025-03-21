@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   vue-build:
     docker:
-      - image: cimg/node:18.0  # Node 18 이상으로 변경
+      - image: cimg/node:18.18.0  # 최신 Node 18 버전 사용
     working_directory: ~/project
     steps:
       - checkout
